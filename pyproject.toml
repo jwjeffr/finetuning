@@ -1,0 +1,13 @@
+[project]
+name = "finetuning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mace-torch>=0.3.16",
+    "polars[rtcompat]>=1.44.1",
+    "scikit-learn>=1.9.0",
+    "tce-lib>=1.0.3",
+    "torch-sim-atomistic>=0.6.1",
+]
